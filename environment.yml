@@ -1,0 +1,13 @@
+name: geo-aquawatch
+channels:
+  - conda-forge
+dependencies:
+  # Python
+  - python >=3.10
+  - xcube-multistore
+  - xcube-cds >=1.0.0
+  - xcube-eopf >=0.3.0
+  - xcube-cmems
+  - xcube-zenodo
+  - jupyterlab
+  - matplotlib
