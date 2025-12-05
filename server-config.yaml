@@ -37,29 +37,29 @@ DataStores:
 Styles:
   - Identifier: S2L2A
     ColorMappings:
-      B02_mean:
+      B02:
         ColorBar: "Greys_r"
         ValueRange: [0., 0.25]
-      B03_mean:
+      B03:
         ColorBar: "Greys_r"
         ValueRange: [0., 0.25]
-      B04_mean:
+      B04:
         ColorBar: "Greys_r"
         ValueRange: [0., 0.25]
-      B08_mean:
+      B08:
         ColorBar: "Greys_r"
         ValueRange: [0., 0.25]
-      scl_mean:
+      scl:
         ColorBar: sen2_l2a_scl
       rgb:
         Red:
-          Variable: B04_mean
+          Variable: B04
           ValueRange: [0., 0.25]
         Green:
-          Variable: B03_mean
+          Variable: B03
           ValueRange: [0., 0.25]
         Blue:
-          Variable: B02_mean
+          Variable: B02
           ValueRange: [0., 0.25]
   - Identifier: CMEMS
     ColorMappings:

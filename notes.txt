@@ -1,7 +1,7 @@
 General:
 --------
 
-- Add DeepESDL some slides, or are they in already?
+- Add DeepESDL some slides, or are they in already? -> make clear that all is executable at home via file data store 
 
 
 Data stores:
