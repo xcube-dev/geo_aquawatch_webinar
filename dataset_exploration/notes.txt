@@ -1,0 +1,25 @@
+General:
+--------
+
+- Add DeepESDL some slides, or are they in already?
+
+
+Data stores:
+------------
+
+- explain dask cluster when writing datacubes
+- explain levels -> needed for visualization
+- explain chunking along time vs chunking in space: 
+    - here optimized for 2D spatial visualization
+    - time series will be slow
+    
+    
+Viewer:
+-------
+
+- explain customized color maps in configuration, see SEN2L2A SCL variable
+- maybe also show that color maps can be configured via UI
+- show log sale of colormaps e.g. OC-CCI, I transformed it in the actual dataset, now the user can have both in the viewer
+- show Time Series and Statistics, Split mode, 
+- (maybe) show 2D Histogramm, to showcase a chartlets example
+- User Variables, if time allows create ndvi or ndwi
