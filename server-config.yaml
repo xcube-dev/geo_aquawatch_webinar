@@ -49,7 +49,7 @@ Styles:
       B08:
         ColorBar: "Greys_r"
         ValueRange: [0., 0.25]
-      scl:
+      SCL:
         ColorBar: sen2_l2a_scl
       rgb:
         Red:
