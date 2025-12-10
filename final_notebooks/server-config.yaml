@@ -17,9 +17,9 @@ DataStores:
         Path: "sen2_l2a.levels"
         Title: Sentinel-2 L2A
         Style: S2L2A
-      - Identifier: oc_nws_cmems
-        Path: "oc_nws_cmems.zarr"
-        Title: CMEMS OC North-West Shelf 100m
+      - Identifier: oc_nws_cmems_l3
+        Path: "oc_nws_l3_cmems.zarr"
+        Title: CMEMS OC L3 North-West Shelf 100m
         Style: CMEMS
       - Identifier: oc_glo_cmems_4km
         Path: "oc_glo_cmems_4km.zarr"
