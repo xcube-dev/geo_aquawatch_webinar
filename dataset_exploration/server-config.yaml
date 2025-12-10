@@ -1,0 +1,29 @@
+DataStores:
+  - Identifier: deep-esdl-team-storage
+    StoreId: s3
+    StoreParams:
+      root: $S3_USER_STORAGE_BUCKET
+      storage_options:
+          anon: false
+          key: $S3_USER_STORAGE_KEY
+          secret: $S3_USER_STORAGE_SECRET
+    Datasets:
+      - Path: "*.zarr"
+        Style: default
+
+        # ChunkCacheSize: 1G
+
+
+Styles:
+  - Identifier: default
+    ColorMappings:
+      rgb:
+        Red:
+          Variable: B04
+          ValueRange: [0., 0.25]
+        Green:
+          Variable: B03
+          ValueRange: [0., 0.25]
+        Blue:
+          Variable: B02
+          ValueRange: [0., 0.25]
