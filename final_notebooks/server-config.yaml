@@ -32,7 +32,7 @@ DataStores:
       - Identifier: oc_cci
         Path: "oc_cci.zarr"
         Title: OC CCI Global
-        Style: CMEMS
+        Style: OC_CCI
         
 Styles:
   - Identifier: S2L2A
@@ -62,7 +62,12 @@ Styles:
   - Identifier: CMEMS
     ColorMappings:
       CHL_mean:
-        ColorBar: "Greens"
+        ColorBar: "viridis"
+        ValueRange: [0., 8.]
+  - Identifier: OC_CCI
+    ColorMappings:
+      OC-CCI_chlor_a:
+        ColorBar: "viridis"
         ValueRange: [0., 8.]
 
 ServiceProvider:
