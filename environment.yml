@@ -8,6 +8,7 @@ dependencies:
   - xcube-cds >=1.0.0
   - xcube-eopf >=0.3.0
   - xcube-cmems
+  - xcube-stac
   - xcube-zenodo
   - jupyterlab
   - matplotlib
